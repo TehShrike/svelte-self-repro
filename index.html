@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div id="target"></div>
+		<script src="component-bundle.js"></script>
+		<script>
+			new component({
+				target: document.getElementById('target'),
+				data: {
+					heading: 'Aw yeah man',
+					subheading: 'I tell you what'
+				}
+			})
+		</script>
+	</body>
+</html>
